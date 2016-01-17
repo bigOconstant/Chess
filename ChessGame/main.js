@@ -81,7 +81,7 @@ var ImagesTeam2 = new Array(8);
 
 /*Inizialize team one Pawn Images *************/
 ImagesTeam1[0]= new Image();
-ImagesTeam1[0].src = ("Images/ChessBlackPawn.png");
+ImagesTeam1[0].src = ("Chess/Images/ChessBlackPawn.png");
 
 
 
