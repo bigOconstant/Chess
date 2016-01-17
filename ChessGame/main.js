@@ -278,7 +278,7 @@ canvas.addEventListener('click', function (event){
 	 ypos = event.pageY - this.offsetTop;
 	 var positionClickTwo = findpos(xpos,ypos);
 	 //Check to see if a move is possible
-   console.log(MovePlayer(x,y,positionClickTwo));
+   MovePlayer(x,y,positionClickTwo);
     
     
   }
