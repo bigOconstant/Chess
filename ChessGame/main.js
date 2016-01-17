@@ -95,7 +95,7 @@ ctx.drawImage( ImagesTeam1[0], i, 105 );
 /*Inisialize team one Queen Image ***/
 
 ImagesTeam1[1]= new Image();
-ImagesTeam1[1].src=('Images/team1queen.png');
+ImagesTeam1[1].src=('http://camccar.github.io/Chess/ChessGame/Images/team1queen.png');
 
 ImagesTeam1[1].onload = function(){
 ctx.drawImage(ImagesTeam1[1],305,5);  
@@ -107,7 +107,7 @@ ctx.drawImage(ImagesTeam1[1],305,5);
 
 
 ImagesTeam1[2]= new Image();
-ImagesTeam1[2].src=('Images/team1king.png');
+ImagesTeam1[2].src=('http://camccar.github.io/Chess/ChessGame/Images/team1king.png');
 
 ImagesTeam1[2].onload = function(){
 ctx.drawImage(ImagesTeam1[2],405,5);  
@@ -116,7 +116,7 @@ ctx.drawImage(ImagesTeam1[2],405,5);
 /*Init team one knights */
 
 ImagesTeam1[3]= new Image();
-ImagesTeam1[3].src=('Images/team1Knight.png');
+ImagesTeam1[3].src=('http://camccar.github.io/Chess/ChessGame/Images/team1Knight.png');
 
 ImagesTeam1[3].onload = function(){
 ctx.drawImage(ImagesTeam1[3],105,5);
@@ -126,7 +126,7 @@ ctx.drawImage(ImagesTeam1[3],605,5);
 /*Init team one Bishops */
 
 ImagesTeam1[4]= new Image();
-ImagesTeam1[4].src=('Images/team1Bishop.png');
+ImagesTeam1[4].src=('http://camccar.github.io/Chess/ChessGame/Images/team1Bishop.png');
 
 
 ImagesTeam1[4].onload = function(){
@@ -136,7 +136,7 @@ ctx.drawImage(ImagesTeam1[4],505,5);
 /*Init team one rooks */
 
 ImagesTeam1[5]= new Image();
-ImagesTeam1[5].src=('Images/team1rook.png');
+ImagesTeam1[5].src=('http://camccar.github.io/Chess/ChessGame/Images/team1rook.png');
 
 ImagesTeam1[5].onload = function(){
 ctx.drawImage(ImagesTeam1[5],5,5);
@@ -150,7 +150,7 @@ ctx.drawImage(ImagesTeam1[5],705,5);
 
 
 ImagesTeam2[0]= new Image();
-ImagesTeam2[0].src=('Images/team2pawn.png');
+ImagesTeam2[0].src=('http://camccar.github.io/Chess/ChessGame/Images/team2pawn.png');
 
 
 ImagesTeam2[0].onload = function() {
@@ -166,7 +166,7 @@ ctx.drawImage( ImagesTeam2[0], i, 605 );
 
 
 ImagesTeam2[1]= new Image();
-ImagesTeam2[1].src=('Images/team2queen.png');
+ImagesTeam2[1].src=('http://camccar.github.io/Chess/ChessGame/Images/team2queen.png');
 
 ImagesTeam2[1].onload = function(){
 ctx.drawImage(ImagesTeam2[1],305,705);  
@@ -176,7 +176,7 @@ ctx.drawImage(ImagesTeam2[1],305,705);
 /*Inisialize team two King Image ***/
 
 ImagesTeam2[2]= new Image();
-ImagesTeam2[2].src=('Images/team2king.png');
+ImagesTeam2[2].src=('http://camccar.github.io/Chess/ChessGame/Images/team2king.png');
 
 ImagesTeam2[2].onload = function(){
 ctx.drawImage(ImagesTeam2[2],405,705);  
@@ -185,7 +185,7 @@ ctx.drawImage(ImagesTeam2[2],405,705);
 /*Init team two knights */
 
 ImagesTeam2[3]= new Image();
-ImagesTeam2[3].src=('Images/team2knight.png');
+ImagesTeam2[3].src=('http://camccar.github.io/Chess/ChessGame/Images/team2knight.png');
 
 ImagesTeam2[3].onload = function(){
 ctx.drawImage(ImagesTeam2[3],105,705);
@@ -196,7 +196,7 @@ ctx.drawImage(ImagesTeam2[3],605,705);
 /*Init team two Bishops */
 
 ImagesTeam2[4]= new Image();
-ImagesTeam2[4].src=('Images/team2bishop.png');
+ImagesTeam2[4].src=('http://camccar.github.io/Chess/ChessGame/Images/team2bishop.png');
 
 
 ImagesTeam2[4].onload = function(){
@@ -207,7 +207,7 @@ ctx.drawImage(ImagesTeam2[4],505,705);
 /*Init team two rooks */
 
 ImagesTeam2[5]= new Image();
-ImagesTeam2[5].src=('Images/team2rook.png');
+ImagesTeam2[5].src=('http://camccar.github.io/Chess/ChessGame/Images/team2rook.png');
 
 ImagesTeam2[5].onload = function(){
 ctx.drawImage(ImagesTeam2[5],5,705);
