@@ -1,12 +1,10 @@
  var randomMove = function(){
    if(turn =='one'){
-   console.log("Turn is one Printing Off Board");
-   console.log(board);
+   
    
    for(var i = 0; i <board.length;++i){
      for(var j = 0; j <board[i].length;++j){
        if(board[i][j].Occupied == 'true' && board[i][j].team == 'one'){
-         console.log("PicRandom move for team one");
          for(var k = 0; k <8; ++k){
            for(var l = 0; l < 8; ++l ){
              var colorClicked = getHexFromCtx(ctx,i,j);
@@ -23,11 +21,11 @@
   
    }
    else{
-     console.log("Turn is two");
+     
       for(var i = 0; i <board.length;++i){
      for(var j = 0; j <board[i].length;++j){
        if(board[i][j].Occupied == 'true' && board[i][j].team == 'two'){
-         console.log("PicRandom move for team one");
+        
          for(var k = 0; k <8; ++k){
            for(var l = 0; l < 8; ++l ){
              var colorClicked = getHexFromCtx(ctx,i,j);
